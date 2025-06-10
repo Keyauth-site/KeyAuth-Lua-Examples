@@ -11,5 +11,5 @@ Config.License = "";
                  /___/                          
 
 -- Creator mazkdevf - https://github.com/mazk5145
--- mazkdevf marketplace - https://github.com/keyauth
+-- mazkdevf marketplace - https://github.com/EpicAuth
 --]]

@@ -24,7 +24,7 @@ local ownerid = "";    -- Application Owner ID
 local version = "1.0"; -- Application Version
 
 function your_script()
-    print("[KeyAuth] - Your script here");
+    print("[EpicAuth] - Your script here");
     print("\n Userdata:")
     print(" Username: " .. user_data.username);
     print(" IP Address: " .. user_data.ip);
@@ -74,7 +74,7 @@ CreateThread(function()
                 -- --> SCRIPT AUTHENTICATION < -- --
 
             else
-                print("^1[KeyAuth]^7 - Error: " .. json.message)
+                print("^1[EpicAuth]^7 - Error: " .. json.message)
                 os.exit();
             end
         else 
@@ -97,7 +97,7 @@ function Login(username, password)
 
                 your_script()
             else
-                print("^1[KeyAuth]^7 - Error: " .. json.message)
+                print("^1[EpicAuth]^7 - Error: " .. json.message)
                 os.exit();
             end
 		end
@@ -117,7 +117,7 @@ function Register(username, password, key)
 
                 your_script()
             else
-                print("^1[KeyAuth]^7 - Error: " .. json.message)
+                print("^1[EpicAuth]^7 - Error: " .. json.message)
                 os.exit();
             end
 		end
@@ -137,7 +137,7 @@ function License(key)
 
                 your_script()
             else
-                print("^1[KeyAuth]^7 - Error: " .. json.message)
+                print("^1[EpicAuth]^7 - Error: " .. json.message)
                 os.exit();
             end
 		end
@@ -196,6 +196,6 @@ AddEventHandler('onResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then 
         return;
     end
-    print("^2[KeyAuth-FiveM-Example]:^7 Created by mazkdevf, https://keyauth.site/");
+    print("^2[EpicAuth-FiveM-Example]:^7 Created by mazkdevf, https://keyauth.site/");
 end)
 --]]

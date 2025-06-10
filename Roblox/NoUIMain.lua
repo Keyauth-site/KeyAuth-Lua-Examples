@@ -1,9 +1,9 @@
 local License = "" --* Your License to use this script.
 
-print(' KeyAuth Lua Example - https://github.com/mazk5145/')
+print(' EpicAuth Lua Example - https://github.com/mazk5145/')
 local HttpService = game:GetService("HttpService")
 local StarterGui = game:GetService("StarterGui")
-local LuaName = "KeyAuth Lua Example"
+local LuaName = "EpicAuth Lua Example"
 
 StarterGui:SetCore("SendNotification", {
 	Title = LuaName,
@@ -23,7 +23,7 @@ APPVersion = "1.0"     --* Application Version
 
 local req = game:HttpGet('https://keyauth.site/api/1.1/?name=' .. Name .. '&ownerid=' .. Ownerid .. '&type=init&ver=' .. APPVersion)
 
-if req == "KeyAuth_Invalid" then 
+if req == "EpicAuth_Invalid" then 
    print(" Error: Application not found.")
 
    StarterGui:SetCore("SendNotification", {

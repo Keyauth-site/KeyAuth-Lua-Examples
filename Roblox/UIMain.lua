@@ -1,7 +1,7 @@
-print(' KeyAuth Lua Example - https://github.com/mazk5145/')
+print(' EpicAuth Lua Example - https://github.com/mazk5145/')
 local HttpService = game:GetService("HttpService")
 local StarterGui = game:GetService("StarterGui")
-local LuaName = "KeyAuth Lua Example"
+local LuaName = "EpicAuth Lua Example"
 
 --* Configuration *--
 local initialized = false
@@ -22,7 +22,7 @@ APPVersion = "1.0"     --* Application Version
 
 local req = game:HttpGet('https://keyauth.site/api/1.1/?name=' .. Name .. '&ownerid=' .. Ownerid .. '&type=init&ver=' .. APPVersion)
 
-if req == "KeyAuth_Invalid" then 
+if req == "EpicAuth_Invalid" then 
    print(" Error: Application not found.")
 
    StarterGui:SetCore("SendNotification", {
@@ -55,8 +55,8 @@ else
    return false
 end
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PDCloud/Pivl-CDN/main/keyauth/robloxUI.lua"))()
-local Window = Library.CreateLib("KeyAuth Lua Example [ROBLOX] - github.com/mazk5145")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PDCloud/Pivl-CDN/main/EpicAuth/robloxUI.lua"))()
+local Window = Library.CreateLib("EpicAuth Lua Example [ROBLOX] - github.com/mazk5145")
 
 -- Tabs --
 local Tab = Window:NewTab("Welcome")
@@ -129,8 +129,8 @@ MainSection:NewButton("Login to Application ?", "Please provide Password.", func
     -- Your Code --
 
     -- Example Code --
-    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PDCloud/Pivl-CDN/main/keyauth/robloxUI.lua"))()
-    local Window = Library.CreateLib("KeyAuth Lua Example [ROBLOX] - github.com/mazk5145")
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PDCloud/Pivl-CDN/main/EpicAuth/robloxUI.lua"))()
+    local Window = Library.CreateLib("EpicAuth Lua Example [ROBLOX] - github.com/mazk5145")
 
 
     local Tab = Window:NewTab("Dashboard")

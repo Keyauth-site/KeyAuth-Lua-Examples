@@ -2,7 +2,7 @@
 
 
 ```
-Change 22-24 Lines (KeyAuth APP Details) to yours
+Change 22-24 Lines (EpicAuth APP Details) to yours
 Example is currently using LICENSE Login but that can be changed on server.lua
 ```
 

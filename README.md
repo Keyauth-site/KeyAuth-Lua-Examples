@@ -1,4 +1,4 @@
-# KeyAuth-Lua-Examples
+# EpicAuth-Lua-Examples
 
 - No longer maintained.
 
