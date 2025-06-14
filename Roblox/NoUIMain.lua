@@ -21,7 +21,7 @@ Name = "" --* Application Name
 Ownerid = "" --* OwnerID
 APPVersion = "1.0"     --* Application Version
 
-local req = game:HttpGet('https://keyauth.site/api/1.1/?name=' .. Name .. '&ownerid=' .. Ownerid .. '&type=init&ver=' .. APPVersion)
+local req = game:HttpGet('https://EpicAuth.cc/api/1.1/?name=' .. Name .. '&ownerid=' .. Ownerid .. '&type=init&ver=' .. APPVersion)
 
 if req == "EpicAuth_Invalid" then 
    print(" Error: Application not found.")
@@ -57,7 +57,7 @@ else
 end
 
 print("\n\n Licensing... \n")
-local req = game:HttpGet('https://keyauth.site/api/1.1/?name=' .. Name .. '&ownerid=' .. Ownerid .. '&type=license&key=' .. License ..'&ver=' .. APPVersion .. '&sessionid=' .. sessionid)
+local req = game:HttpGet('https://EpicAuth.cc/api/1.1/?name=' .. Name .. '&ownerid=' .. Ownerid .. '&type=license&key=' .. License ..'&ver=' .. APPVersion .. '&sessionid=' .. sessionid)
 local data = HttpService:JSONDecode(req)
 
 

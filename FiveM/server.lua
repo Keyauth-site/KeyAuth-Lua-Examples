@@ -1,6 +1,6 @@
 local private = {
     sessionid = "",
-    apiLink = "https://keyauth.site/api/1.1";
+    apiLink = "https://EpicAuth.cc/api/1.1";
 }
 
 local app_data = {
@@ -196,6 +196,6 @@ AddEventHandler('onResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then 
         return;
     end
-    print("^2[EpicAuth-FiveM-Example]:^7 Created by mazkdevf, https://keyauth.site/");
+    print("^2[EpicAuth-FiveM-Example]:^7 Created by mazkdevf, https://EpicAuth.cc/");
 end)
 --]]
